@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - SparkPost",
+	"description": "This is a repository of sparkpost APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/sparkpost.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-31",
+	"url": "http://sparkpost.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "SparkPost",
+			"x-api-slug": "sparkpost",
+			"description": "Deliver your app and website emails on time and to the inbox. Trusted to send 25% of the worlds non-spam email. Email delivery for companies big and small.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20663-sparkpost.jpg",
+			"humanURL": "http://sparkpost.com",
+			"baseURL": "https://api.sparkpost.com//api/v1",
+			"tags": "SparkPost",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/sparkpost/master/_listings/sparkpost/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "SparkPost",
+	"include": [
+		{
+			"name": "SparkPost",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/sparkpost/master/_listings/sparkpost/apis.yaml"
+		}
+	]
+}
